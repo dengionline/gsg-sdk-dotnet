@@ -10,17 +10,16 @@
 ### Свойства класса
 
 Название параметра | Тип переменной | Описание | В каких методах используется
+--- | --- | --- | ---
 txn_id | string | Номер платежа в системе проекта | Check,Pay
 paysystem | int | Номер платежной системы | Check
 account | string | Аккаунт | Check,Pay
-amount | 	double | 	Сумма платежа | 	Check,Pay
-currency | 	string | 	Требуемая валюта | 	Check,Pay
-invoice | 	int | 	Инвойс | 	Check,Pay
-expiry | 	string | 	Дата истечения срока дейстия карты	 | Check,Pay
-name | 	string | 	ФИО получателя платежа | 	Check,Pay
-phone | 	string | 	Телефон | 	Check,Pay
-
-
+amount | double | Сумма платежа | Check,Pay
+currency | string | Требуемая валюта | Check,Pay
+invoice | int | Инвойс | Check,Pay
+expiry | string | Дата истечения срока дейстия карты | Check,Pay
+name | string | ФИО получателя платежа | Check,Pay
+phone | string | Телефон | Check,Pay
 
 ##Примеры использования:
 
